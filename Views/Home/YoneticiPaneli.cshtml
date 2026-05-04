@@ -1,0 +1,54 @@
+@model List<OkulSistemi.Models.Kullanici>
+
+<div class="container mt-5">
+    <h2 class="mb-4">👑 Yönetici Paneli - Tüm Kullanıcılar</h2>
+
+    <!-- GÖREV 4: İstatistik Kartları -->
+    <div class="row mb-4 text-center">
+        <div class="col-md-4">
+            <div class="card bg-info text-white p-3 shadow-sm">
+                <h5>Öğrenci: @Model.Count(x => x.Rol == "Öğrenci") 🎓</h5>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-warning text-dark p-3 shadow-sm">
+                <h5>Öğretmen: @Model.Count(x => x.Rol == "Öğretmen") 👨‍🏫</h5>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-dark text-white p-3 shadow-sm">
+                <h5>Toplam Kayıt: @Model.Count ⭐</h5>
+            </div>
+        </div>
+    </div>
+
+    <table class="table table-striped border shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>Ad Soyad</th>
+                <th>E-posta</th>
+                <th>Rol</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model) {
+                <tr>
+                    <td>
+                        @user.AdSoyad 
+                        @* GÖREV 3: Rol Emojileri *@
+                        @if (user.Rol == "Öğrenci") { <span>🎓</span> }
+                        else if (user.Rol == "Öğretmen") { <span>👨‍🏫</span> }
+                        else if (user.Rol == "Yönetici") { <span>⭐</span> }
+                    </td>
+                    <td>@user.Email</td>
+                    <td>
+                        <span class="badge @(user.Rol == "Yönetici" ? "bg-danger" : (user.Rol == "Öğretmen" ? "bg-warning" : "bg-info"))">
+                            @user.Rol
+                        </span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Home/Kayit" class="btn btn-secondary">Yeni Kayıt Ekle</a>
+</div>

@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Okul Sistemi</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @* GÖREV 1: Otomatik Yıl *@
+    <footer class="border-top footer text-muted text-center py-3">
+        <div class="container">
+            &copy; @DateTime.Now.Year - Okul Sistemi Portalı
+        </div>
+    </footer>
+</body>
+</html>
