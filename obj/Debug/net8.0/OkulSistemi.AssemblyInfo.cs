@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OkulSistemi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ab4e992c627a758766b98e6c8052a4a2b437a11")]
 [assembly: System.Reflection.AssemblyProductAttribute("OkulSistemi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OkulSistemi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
