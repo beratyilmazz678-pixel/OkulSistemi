@@ -141,3 +141,9 @@ C:\Users\ADMİN\Desktop\visualstudiocode\OkulSistemi\obj\Debug\net8.0\refint\Oku
 C:\Users\ADMİN\Desktop\visualstudiocode\OkulSistemi\obj\Debug\net8.0\OkulSistemi.pdb
 C:\Users\ADMİN\Desktop\visualstudiocode\OkulSistemi\obj\Debug\net8.0\OkulSistemi.genruntimeconfig.cache
 C:\Users\ADMİN\Desktop\visualstudiocode\OkulSistemi\obj\Debug\net8.0\ref\OkulSistemi.dll
+C:\Users\ADMİN\Desktop\visualstudiocode\OkulSistemi\bin\Debug\net8.0\publish\web.config
+C:\Users\ADMİN\Desktop\visualstudiocode\OkulSistemi\bin\Debug\net8.0\publish\appsettings.Development.json
+C:\Users\ADMİN\Desktop\visualstudiocode\OkulSistemi\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\ADMİN\Desktop\visualstudiocode\OkulSistemi\bin\Debug\net8.0\publish\OkulSistemi.deps.json
+C:\Users\ADMİN\Desktop\visualstudiocode\OkulSistemi\bin\Debug\net8.0\publish\OkulSistemi.runtimeconfig.json
+C:\Users\ADMİN\Desktop\visualstudiocode\OkulSistemi\obj\Debug\net8.0\OkulSistemi.sourcelink.json
