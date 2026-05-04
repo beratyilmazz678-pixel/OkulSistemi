@@ -10,3 +10,5 @@ Bu proje, Bilişim Teknolojileri dersi kapsamında geliştirilmiştir.
 
 ## Canlı Link:
 [Sitemi Burada İnceleyin](http://berat67.somee.com)
+Geliştiren: Berat YILMAZ
+Okul: ZMTAL
